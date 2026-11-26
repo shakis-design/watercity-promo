@@ -1,16 +1,16 @@
 <!doctype html>
 <html lang="ru">
 <head>
-<!-- PHPSHOP: main/index.tpl. Head: @pageTitl@ @pageDesc@ @pageKeyw@; styles through @pageCss@ / templates path. Static stage keeps UTF-8; the cp1251 file set is built at cut time. -->
+
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>ВатерСити: запчасти, горелки и котлы в Санкт-Петербурге</title>
 <meta name="description" content="Котлы, горелки, автоматика и запчасти в Санкт-Петербурге: более 2 300 позиций с ценами. Подбор по модели, монтаж и сервис котельных.">
-<meta name="robots" content="noindex, nofollow"><!-- test copy only: remove at launch (07) -->
+<meta name="robots" content="noindex, nofollow">
 <meta name="theme-color" content="#FFFFFF">
-<link rel="canonical" href="https://watercity.ru/"><!-- PHPShop addresses differ (SeoUrl Pro): the engine puts the real canonical into the template -->
+<link rel="canonical" href="https://watercity.ru/">
 <meta property="og:type" content="website"><meta property="og:locale" content="ru_RU"><meta property="og:site_name" content="ВатерСити"><meta property="og:title" content="ВатерСити: запчасти, горелки и котлы в Санкт-Петербурге"><meta property="og:description" content="Котлы, горелки, автоматика и запчасти в Санкт-Петербурге: более 2 300 позиций с ценами. Подбор по модели, монтаж и сервис котельных.">
-<meta property="og:image" content="img/g7-og.jpg"><!-- og:image needs an absolute URL on the live domain (07 sets it at launch) -->
+<meta property="og:image" content="img/g7-og.jpg">
 <link rel="icon" href="favicon.ico" sizes="32x32">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -21,12 +21,12 @@
 <script src="js/app.js?v=3829bc2a" defer></script>
 </head>
 <body class="home" data-demo><div class="wc-demo-plate" role="note" style="background:#071A3A;color:#C9D5EA;font:400 14px/1.4 Onest,system-ui,sans-serif;padding:10px 16px;text-align:center;position:relative;z-index:60">Демо: вариант 1, сайт на PHPShop. Товары демонстрационные, запросы никуда не отправляются. <a href="../" style="color:#fff;font-weight:600;white-space:nowrap">Все варианты</a></div>
-<!-- data-demo: static stage only. Forms simulate a successful reply. Remove when Form Generator / handlers are connected. -->
-<div class="page"><!-- wrapper of the template: the engine appends its licence block after it, on the dark body background -->
+
+<div class="page">
 <a class="skip" href="#main">Перейти к содержимому</a>
 <div class="sr" id="live" role="status" aria-live="polite"></div>
 <svg class="sprite" width="0" height="0" aria-hidden="true" focusable="false"><symbol id="i-arrow-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></symbol><symbol id="i-camera" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M13.997 4a2 2 0 0 1 1.76 1.05l.486.9A2 2 0 0 0 18.003 7H20a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2h1.997a2 2 0 0 0 1.759-1.048l.489-.904A2 2 0 0 1 10.004 4z"/><circle cx="12" cy="13" r="3"/></symbol><symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path pathLength="1" d="M20 6 9 17l-5-5"/></symbol><symbol id="i-chevron-down" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></symbol><symbol id="i-chevron-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></symbol><symbol id="i-circle-alert" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" x2="12" y1="8" y2="12"/><line x1="12" x2="12.01" y1="16" y2="16"/></symbol><symbol id="i-circle-help" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></symbol><symbol id="i-clipboard-list" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect width="8" height="4" x="8" y="2" rx="1" ry="1"/><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><path d="M12 11h4"/><path d="M12 16h4"/><path d="M8 11h.01"/><path d="M8 16h.01"/></symbol><symbol id="i-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></symbol><symbol id="i-copy" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect width="14" height="14" x="8" y="8" rx="2" ry="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/></symbol><symbol id="i-cpu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20v2"/><path d="M12 2v2"/><path d="M17 20v2"/><path d="M17 2v2"/><path d="M2 12h2"/><path d="M2 17h2"/><path d="M2 7h2"/><path d="M20 12h2"/><path d="M20 17h2"/><path d="M20 7h2"/><path d="M7 20v2"/><path d="M7 2v2"/><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="8" y="8" width="8" height="8" rx="1"/></symbol><symbol id="i-cylinder" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5v14a9 3 0 0 0 18 0V5"/></symbol><symbol id="i-droplet" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22a7 7 0 0 0 7-7c0-2-1-3.9-3-5.5s-3.5-4-4-6.5c-.5 2.5-2 4.9-4 6.5C6 11.1 5 13 5 15a7 7 0 0 0 7 7z"/></symbol><symbol id="i-factory" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M12 16h.01"/><path d="M16 16h.01"/><path d="M3 19a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V8.5a.5.5 0 0 0-.769-.422l-4.462 2.844A.5.5 0 0 1 15 10.5v-2a.5.5 0 0 0-.769-.422L9.77 10.922A.5.5 0 0 1 9 10.5V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2z"/><path d="M8 16h.01"/></symbol><symbol id="i-fan" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M10.827 16.379a6.082 6.082 0 0 1-8.618-7.002l5.412 1.45a6.082 6.082 0 0 1 7.002-8.618l-1.45 5.412a6.082 6.082 0 0 1 8.618 7.002l-5.412-1.45a6.082 6.082 0 0 1-7.002 8.618l1.45-5.412Z"/><path d="M12 12v.01"/></symbol><symbol id="i-faucet" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M10.083 5.428 5.57 4.083a2 2 0 10.001 3.834l4.512-1.345"/><path d="M12 8v3"/><path d="m13.917 5.428 4.511-1.345a2 2 0 110 3.834l-4.51-1.345"/><path d="M18 17v-4.006"/><path d="M22 11v8"/><path d="M22 12h-3a1 1 0 00-1 .994h-2.539a4 4 0 00-6.915-.012L7 13a5 5 0 00-5 5v1a1 1 0 001 1h2a1 1 0 001-1v-1a1 1 0 01.995-1l1.552.018a4 4 0 006.907 0L18 17a1 1 0 001 1h3"/><circle cx="12" cy="6" r="2"/></symbol><symbol id="i-flame" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3q1 4 4 6.5t3 5.5a1 1 0 0 1-14 0 5 5 0 0 1 1-3 1 1 0 0 0 5 0c0-2-1.5-3-1.5-5q0-2 2.5-4"/></symbol><symbol id="i-fuel" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M14 13h2a2 2 0 0 1 2 2v2a2 2 0 0 0 4 0v-6.998a2 2 0 0 0-.59-1.42L18 5"/><path d="M14 21V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v16"/><path d="M2 21h13"/><path d="M3 9h11"/></symbol><symbol id="i-gauge" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="m12 14 4-4"/><path d="M3.34 19a10 10 0 1 1 17.32 0"/></symbol><symbol id="i-heater" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M11 8c2-3-2-3 0-6"/><path d="M15.5 8c2-3-2-3 0-6"/><path d="M6 10h.01"/><path d="M6 14h.01"/><path d="M10 16v-4"/><path d="M14 16v-4"/><path d="M18 16v-4"/><path d="M20 6a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h3"/><path d="M5 20v2"/><path d="M19 20v2"/></symbol><symbol id="i-image-off" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><line x1="2" x2="22" y1="2" y2="22"/><path d="M10.41 10.41a2 2 0 1 1-2.83-2.83"/><line x1="13.5" x2="6" y1="13.5" y2="21"/><line x1="18" x2="21" y1="12" y2="15"/><path d="M3.59 3.59A1.99 1.99 0 0 0 3 5v14a2 2 0 0 0 2 2h14c.55 0 1.052-.22 1.41-.59"/><path d="M21 15V5a2 2 0 0 0-2-2H9"/></symbol><symbol id="i-menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h16"/><path d="M4 12h16"/><path d="M4 19h16"/></symbol><symbol id="i-minus" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/></symbol><symbol id="i-plus" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M12 5v14"/></symbol><symbol id="i-ripple" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7c3 -2 6 -2 9 0s6 2 9 0"/><path d="M3 17c3 -2 6 -2 9 0s6 2 9 0"/><path d="M3 12c3 -2 6 -2 9 0s6 2 9 0"/></symbol><symbol id="i-search" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="m21 21-4.34-4.34"/><circle cx="11" cy="11" r="8"/></symbol><symbol id="i-search-x" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="m13.5 8.5-5 5"/><path d="m8.5 8.5 5 5"/><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></symbol><symbol id="i-thermometer" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M14 4v10.54a4 4 0 1 1-4 0V4a2 2 0 0 1 4 0Z"/></symbol><symbol id="i-trash-2" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M10 11v6"/><path d="M14 11v6"/><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6"/><path d="M3 6h18"/><path d="M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></symbol><symbol id="i-truck" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2"/><path d="M15 18H9"/><path d="M19 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.624l-3.48-4.35A1 1 0 0 0 17.52 8H14"/><circle cx="17" cy="18" r="2"/><circle cx="7" cy="18" r="2"/></symbol><symbol id="i-vk" viewBox="0 0 24 24"><path fill="currentColor" stroke="none" d="m9.489.004.729-.003h3.564l.73.003.914.01.433.007.418.011.403.014.388.016.374.021.36.025.345.03.333.033c1.74.196 2.933.616 3.833 1.516.9.9 1.32 2.092 1.516 3.833l.034.333.029.346.025.36.02.373.025.588.012.41.013.644.009.915.004.98-.001 3.313-.003.73-.01.914-.007.433-.011.418-.014.403-.016.388-.021.374-.025.36-.03.345-.033.333c-.196 1.74-.616 2.933-1.516 3.833-.9.9-2.092 1.32-3.833 1.516l-.333.034-.346.029-.36.025-.373.02-.588.025-.41.012-.644.013-.915.009-.98.004-3.313-.001-.73-.003-.914-.01-.433-.007-.418-.011-.403-.014-.388-.016-.374-.021-.36-.025-.345-.03-.333-.033c-1.74-.196-2.933-.616-3.833-1.516-.9-.9-1.32-2.092-1.516-3.833l-.034-.333-.029-.346-.025-.36-.02-.373-.025-.588-.012-.41-.013-.644-.009-.915-.004-.98.001-3.313.003-.73.01-.914.007-.433.011-.418.014-.403.016-.388.021-.374.025-.36.03-.345.033-.333c.196-1.74.616-2.933 1.516-3.833.9-.9 2.092-1.32 3.833-1.516l.333-.034.346-.029.36-.025.373-.02.588-.025.41-.012.644-.013.915-.009ZM6.79 7.3H4.05c.13 6.24 3.25 9.99 8.72 9.99h.31v-3.57c2.01.2 3.53 1.67 4.14 3.57h2.84c-.78-2.84-2.83-4.41-4.11-5.01 1.28-.74 3.08-2.54 3.51-4.98h-2.58c-.56 1.98-2.22 3.78-3.8 3.95V7.3H10.5v6.92c-1.6-.4-3.62-2.34-3.71-6.92Z"/></symbol><symbol id="i-warehouse" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M18 21V10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1v11"/><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V8a2 2 0 0 1 1.132-1.803l7.95-3.974a2 2 0 0 1 1.837 0l7.948 3.974A2 2 0 0 1 22 8z"/><path d="M6 13h12"/><path d="M6 17h12"/></symbol><symbol id="i-wind" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M12.8 19.6A2 2 0 1 0 14 16H2"/><path d="M17.5 8a2.5 2.5 0 1 1 2 4H2"/><path d="M9.8 4.4A2 2 0 1 1 11 8H2"/></symbol><symbol id="i-wrench" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.106-3.105c.32-.322.863-.22.983.218a6 6 0 0 1-8.259 7.057l-7.91 7.91a1 1 0 0 1-2.999-3l7.91-7.91a6 6 0 0 1 7.057-8.259c.438.12.54.662.219.984z"/></symbol><symbol id="i-x" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></symbol></svg>
-<!-- PHPSHOP header: written in BOTH main/index.tpl and main/shop.tpl (no separate header.tpl in the engine). Metas: @logo@ @telNum@ @telNum2@ @workingTime@ @num@ (request counter) @leftCatal@ (catalog tree) @topMenu@ -->
+
 <header class="hdr" id="hdr">
   <div class="top">
     <div class="wrap top-in">
@@ -66,7 +66,7 @@
     <div class="wrap strip-in">
       <button type="button" class="btn btn-blue strip-cat" data-mega aria-expanded="false" aria-controls="mega"><svg class="ic" aria-hidden="true" focusable="false"><use href="#i-menu"/></svg>Каталог</button>
       <form class="search search--md" role="search" action="search.html" method="get" data-live><div class="search-box"><label class="search-in" for="q-13"><svg class="ic" aria-hidden="true" focusable="false"><use href="#i-search"/></svg><span class="sr">Поиск по каталогу</span><input id="q-13" name="words" type="search" autocomplete="off" enterkeyhint="search" placeholder="Название, артикул или модель" data-ph-s="Артикул или модель" role="combobox" aria-expanded="false" aria-controls="q-13-l" aria-autocomplete="list"><button type="button" class="search-x" aria-label="Очистить поиск" hidden><svg class="ic" aria-hidden="true" focusable="false"><use href="#i-x"/></svg></button></label><button class="btn btn-blue" type="submit"><span>Найти</span><svg class="ic btn-ic" aria-hidden="true" focusable="false"><use href="#i-search"/></svg></button><span class="wave" aria-hidden="true"><i></i></span></div><div class="drop" id="q-13-d" hidden><div class="drop-l" id="q-13-l" role="listbox" aria-label="Результаты поиска"></div><div class="drop-x"></div></div></form>
-      <!-- Б2: the request button of the strip, shown when row 1 has gone (CSS .top-off) -->
+      
       <a class="btn btn-line btn-sm req req--strip" href="request.html" title="Список позиций для счёта"><span class="req-t">Запрос</span><b class="req-n" data-req-n hidden>0</b></a>
     </div>
   </div>
@@ -101,9 +101,9 @@
 </aside>
 
 <main id="main" tabindex="-1">
-<!-- PHPSHOP main/index.tpl: the home page. Hero, index, rows, steps and the blocks below are static text in this file; @mainContent@ is not used (text lives in the template, as in the approved concept). -->
 
-<!-- BLOCK 1 hero: search (PHPShop search, /search/?words=) + the "Подбор запчасти" form (Form Generator, placed in the template by hook) -->
+
+
 <section class="hero" aria-labelledby="h1">
   <div class="wrap hero-in">
     <div class="hero-l">
@@ -122,12 +122,12 @@
         <li><svg class="ic ic-22" aria-hidden="true" focusable="false"><use href="#i-truck"/></svg><span><b>По России</b>до Деловых линий и СДЭК бесплатно</span></li>
         <li><svg class="ic ic-22" aria-hidden="true" focusable="false"><use href="#i-wrench"/></svg><span><b><a href="service-servis.html">Монтаж и сервис</a></b>котельные, ремонт горелок</span></li>
       </ul>
-      <!-- decorative scene "manometer and thermometers" on the T1/T2 thread (concepts/hero-fill/v3-manometr.html): the figures on the scales are decorative, not data; the whole scene is aria-hidden -->
+      
       <div class="hero-scene" aria-hidden="true">
         <svg viewBox="0 0 660 266" preserveAspectRatio="xMaxYMax meet" focusable="false">
     <path class="m-pipe m-t1" pathLength="1" d="M0 214H660"/>
     <path class="m-pipe m-t2" pathLength="1" d="M660 238H0"/>
-    <!-- манометр -->
+    
     <path class="m-u m-d" pathLength="1" d="M124 196V214"/>
     <circle class="m-uf m-ring m-d" pathLength="1" cx="124" cy="106" r="90" transform="rotate(90 124 106)"/>
     <rect class="m-uf m-fade" x="116" y="199" width="16" height="9" rx="2"/>
@@ -142,7 +142,7 @@
       <path class="m-hand" d="M121.4 124L124 40L126.6 124Z"/>
       <circle class="m-hub" cx="124" cy="106" r="6"/>
     </g></g></g>
-    <!-- термометры подачи и обратки -->
+    
     <g class="m-th">
       <path class="m-u m-d m-d2" pathLength="1" d="M356 188V214"/>
       <rect class="m-uf m-d m-d2" pathLength="1" x="349" y="64" width="14" height="124" rx="7"/>
@@ -157,7 +157,7 @@
       <rect class="m-col m-c2" style="animation-delay:1300ms" x="449.5" y="126" width="5" height="56" rx="2.5"/>
       <text class="m-big m-lbl" style="animation-delay:2100ms" x="456" y="48" text-anchor="middle">Т2 50°</text>
     </g>
-    <!-- задвижка на подаче и фланцы -->
+    
     <path class="m-uf m-fade" d="M552 207V221L568 207V221Z"/>
     <rect class="m-fl m-fl1" x="36" y="210" width="8" height="8"/><rect class="m-fl m-fl1" x="236" y="210" width="8" height="8"/><rect class="m-fl m-fl1" x="496" y="210" width="8" height="8"/><rect class="m-fl m-fl1" x="626" y="210" width="8" height="8"/>
     <rect class="m-fl m-fl2" x="96" y="234" width="8" height="8"/><rect class="m-fl m-fl2" x="296" y="234" width="8" height="8"/><rect class="m-fl m-fl2" x="566" y="234" width="8" height="8"/>
@@ -165,8 +165,8 @@
       </div>
     </div>
 
-    <form class="plane picker" id="podbor" action="#" method="post" data-form data-ok-title="Заявка на подбор отправлена" data-ok-text="Ответим в рабочее время, пн&ndash;пт 10:00&ndash;18:00." data-ok-again="Подобрать ещё одну" aria-labelledby="podbor-h">
-      <!-- Form Generator (formgenerator_ fields): brand, model, nameplate photo (if attachments work), part, phone, email. Required: model (or the photo) and phone, as in all four selection forms; consent checked by a hook on the server -->
+    <form class="plane picker" id="podbor" action="#" method="post" data-form data-ok-title="Это демо: заявка не отправлена" data-ok-text="На настоящем сайте её получит инженер ВатерСити и ответит в рабочее время." data-ok-again="Подобрать ещё одну" aria-labelledby="podbor-h">
+      
       <h2 class="plane-h" id="podbor-h">Подбор запчасти</h2>
       <p class="plane-lead">Проверим совместимость и назовём цену и срок.</p>
       <div class="step"><p class="step-l"><i>1</i>Марка оборудования</p>
@@ -195,7 +195,7 @@
   </div>
 </section>
 
-<!-- BLOCK 2 index of sections: @leftCatal@ top level (14 sections), static link here in the static stage -->
+
 <section class="index" aria-labelledby="idx-h">
   <div class="wrap">
     <div class="index-box">
@@ -205,7 +205,7 @@
   </div>
 </section>
 
-<!-- BLOCK 3 spare parts as rows (@specMain@ + product/main_spec_forma*.tpl in row form) + the request panel (@num@ @sum@; the item list needs the cart AJAX of phpshop.js) -->
+
 <section class="cat" aria-labelledby="cat-h">
   <div class="wrap cat-in">
     <div>
@@ -223,7 +223,7 @@
   </div>
 </section>
 
-<!-- BLOCK 4 how to order (static) -->
+
 <section class="steps-s" aria-labelledby="st-h">
   <div class="wrap">
     <div class="steps">
@@ -242,7 +242,7 @@
   </div>
 </section>
 
-<!-- BLOCK 5 services: scheme S1 + four links to the service pages (static; links to /page/*.html in PHPShop) -->
+
 <section class="svc" aria-labelledby="svc-h">
   <div class="wrap svc-in">
     <figure class="media media--16x9 media--scheme media--m43"><div class="scheme scheme-d has-m"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 7 800 450" role="img" aria-label="Схема котельной: котёл с горелкой, насос, расширительный бак, гидрострелка и два контура потребителей, подача и обратка"><style>.sc-u,.sc-uf,.sc-t1,.sc-t2,.sc-f1,.sc-f2{vector-effect:non-scaling-stroke;stroke-linejoin:round;stroke-linecap:round}.sc-u{fill:none;stroke:var(--pipe-unit,#2B3A50);stroke-width:1.75}.sc-uf{fill:var(--blue-tint,#E9EFF9);stroke:var(--pipe-unit,#2B3A50);stroke-width:1.75}.sc-t1{fill:none;stroke:var(--pipe-t1,#C2410C);stroke-width:2.5}.sc-t2{fill:none;stroke:var(--pipe-t2,#1747A6);stroke-width:2.5}.sc-f1{fill:var(--blue-tint,#E9EFF9);stroke:var(--pipe-t1,#C2410C);stroke-width:2}.sc-f2{fill:var(--blue-tint,#E9EFF9);stroke:var(--pipe-t2,#1747A6);stroke-width:2}.sc-a1{fill:var(--pipe-t1,#C2410C)}.sc-a2{fill:var(--pipe-t2,#1747A6)}.sc-l{font:500 18px var(--mono,'JetBrains Mono',ui-monospace,Consolas,monospace);fill:var(--pipe-label,#5A6678)}</style><rect class="sc-uf" x="100" y="150" width="140" height="160" rx="6"/><rect class="sc-u" x="110" y="160" width="120" height="140" rx="4"/><rect class="sc-uf" x="44" y="220" width="44" height="40" rx="5"/><rect class="sc-uf" x="88" y="232" width="12" height="16" rx="2"/><text class="sc-l" x="170" y="238" text-anchor="middle">К1</text><text class="sc-l" x="66" y="276" text-anchor="middle">Г1</text><polyline class="sc-t1 pipe" pathLength="1" data-step="1" points="210,150 210,95 375,95"/><rect class="sc-f1" x="206" y="146" width="8" height="8"/><polygon class="sc-a1 arrow" points="294,90 294,100 306,95"/><text class="sc-l" x="255" y="78" text-anchor="middle">Т1</text><polyline class="sc-t2 pipe" pathLength="1" data-step="3" points="375,365 130,365 130,310"/><rect class="sc-f2" x="126" y="306" width="8" height="8"/><polyline class="sc-t2 pipe" pathLength="1" data-step="3" points="320,277 320,365"/><circle class="sc-a2 arrow" cx="320" cy="365" r="4"/><circle class="sc-uf" cx="320" cy="255" r="22"/><path class="sc-u" d="M298.8 261Q320 245 341.2 261"/><text class="sc-l" x="288" y="262" text-anchor="end">Б1</text><circle class="sc-uf" cx="255" cy="365" r="17"/><polygon class="sc-u" points="262,373 262,357 246,365"/><text class="sc-l" x="255" y="406" text-anchor="middle">Н1</text><polygon class="sc-a2 arrow" points="356,370 356,360 344,365"/><text class="sc-l" x="170" y="392" text-anchor="middle">Т2</text><rect class="sc-uf" x="375" y="70" width="24" height="320" rx="4"/><text class="sc-l" x="387" y="54" text-anchor="middle">ГС</text><rect class="sc-f1" x="371" y="91" width="8" height="8"/><rect class="sc-f2" x="371" y="361" width="8" height="8"/><polyline class="sc-t1 pipe" pathLength="1" data-step="1" points="399,110 720,110 720,125"/><polyline class="sc-t2 pipe" pathLength="1" data-step="4" points="720,175 720,190 399,190"/><circle class="sc-uf" cx="500" cy="110" r="17"/><polygon class="sc-u" points="493,102 493,118 509,110"/><text class="sc-l" x="500" y="82" text-anchor="middle">Н2</text><polygon class="sc-a1 arrow" points="434,105 434,115 446,110"/><polygon class="sc-a2 arrow" points="446,195 446,185 434,190"/><text class="sc-l" x="620" y="92" text-anchor="middle">Т1</text><text class="sc-l" x="620" y="214" text-anchor="middle">Т2</text><rect class="sc-uf" x="698" y="125" width="44" height="50" rx="5"/><polyline class="sc-u" points="708,133 708,167"/><polyline class="sc-u" points="716,133 716,167"/><polyline class="sc-u" points="724,133 724,167"/><polyline class="sc-u" points="732,133 732,167"/><polyline class="sc-t1 pipe" pathLength="1" data-step="2" points="399,255 720,255 720,270"/><polyline class="sc-t2 pipe" pathLength="1" data-step="4" points="720,320 720,335 399,335"/><circle class="sc-uf" cx="500" cy="255" r="17"/><polygon class="sc-u" points="493,247 493,263 509,255"/><text class="sc-l" x="500" y="227" text-anchor="middle">Н3</text><polygon class="sc-a1 arrow" points="434,250 434,260 446,255"/><polygon class="sc-a2 arrow" points="446,340 446,330 434,335"/><rect class="sc-uf" x="698" y="270" width="44" height="50" rx="5"/><polyline class="sc-u" points="708,280 732,280 732,290 708,290 708,300 732,300 732,310 708,310"/><rect class="sc-f1" x="395" y="106" width="8" height="8"/><rect class="sc-f2" x="395" y="186" width="8" height="8"/><rect class="sc-f1" x="395" y="251" width="8" height="8"/><rect class="sc-f2" x="395" y="331" width="8" height="8"/></svg></div><div class="scheme scheme-m"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Схема котельной, упрощённая: котёл с горелкой, насос, гидрострелка и контур радиаторов, подача и обратка"><style>.sc-u,.sc-uf,.sc-t1,.sc-t2,.sc-f1,.sc-f2{vector-effect:non-scaling-stroke;stroke-linejoin:round;stroke-linecap:round}.sc-u{fill:none;stroke:var(--pipe-unit,#2B3A50);stroke-width:1.75}.sc-uf{fill:var(--blue-tint,#E9EFF9);stroke:var(--pipe-unit,#2B3A50);stroke-width:1.75}.sc-t1{fill:none;stroke:var(--pipe-t1,#C2410C);stroke-width:2.5}.sc-t2{fill:none;stroke:var(--pipe-t2,#1747A6);stroke-width:2.5}.sc-f1{fill:var(--blue-tint,#E9EFF9);stroke:var(--pipe-t1,#C2410C);stroke-width:2}.sc-f2{fill:var(--blue-tint,#E9EFF9);stroke:var(--pipe-t2,#1747A6);stroke-width:2}.sc-a1{fill:var(--pipe-t1,#C2410C)}.sc-a2{fill:var(--pipe-t2,#1747A6)}.sc-l{font:500 16px var(--mono,'JetBrains Mono',ui-monospace,Consolas,monospace);fill:var(--pipe-label,#5A6678)}</style><rect class="sc-uf" x="66" y="90" width="90" height="110" rx="6"/><rect class="sc-u" x="76" y="100" width="70" height="90" rx="4"/><rect class="sc-uf" x="24" y="140" width="33" height="30" rx="5"/><rect class="sc-uf" x="57" y="149" width="9" height="12" rx="2"/><text class="sc-l" x="111" y="150" text-anchor="middle">К1</text><text class="sc-l" x="30" y="186" text-anchor="middle">Г1</text><polyline class="sc-t1 pipe" pathLength="1" data-step="1" points="136,90 136,50 250,50"/><rect class="sc-f1" x="132" y="86" width="8" height="8"/><polygon class="sc-a1 arrow" points="189,45 189,55 201,50"/><text class="sc-l" x="195" y="34" text-anchor="middle">Т1</text><polyline class="sc-t2 pipe" pathLength="1" data-step="3" points="250,250 86,250 86,200"/><rect class="sc-f2" x="82" y="196" width="8" height="8"/><circle class="sc-uf" cx="165" cy="250" r="17"/><polygon class="sc-u" points="172,258 172,242 156,250"/><text class="sc-l" x="165" y="286" text-anchor="middle">Н1</text><polygon class="sc-a2 arrow" points="228,255 228,245 216,250"/><text class="sc-l" x="112" y="236" text-anchor="middle">Т2</text><rect class="sc-uf" x="250" y="30" width="18" height="240" rx="4"/><text class="sc-l" x="259" y="20" text-anchor="middle">ГС</text><rect class="sc-f1" x="246" y="46" width="8" height="8"/><rect class="sc-f2" x="246" y="246" width="8" height="8"/><polyline class="sc-t1 pipe" pathLength="1" data-step="2" points="268,90 350,90 350,105"/><polyline class="sc-t2 pipe" pathLength="1" data-step="4" points="350,155 350,170 268,170"/><circle class="sc-uf" cx="305" cy="90" r="15"/><polygon class="sc-u" points="298,82 298,98 314,90"/><text class="sc-l" x="305" y="62" text-anchor="middle">Н2</text><polygon class="sc-a2 arrow" points="316,175 316,165 304,170"/><text class="sc-l" x="310" y="192" text-anchor="middle">Т2</text><rect class="sc-f1" x="264" y="86" width="8" height="8"/><rect class="sc-f2" x="264" y="166" width="8" height="8"/><rect class="sc-uf" x="328" y="105" width="44" height="50" rx="5"/><polyline class="sc-u" points="338,113 338,147"/><polyline class="sc-u" points="346,113 346,147"/><polyline class="sc-u" points="354,113 354,147"/><polyline class="sc-u" points="362,113 362,147"/></svg></div></figure>
@@ -258,12 +258,12 @@
   </div>
 </section>
 
-<!-- BLOCK 6 brands: tiles with names only (no logos), each leads to the brand section; the link comes from the section label (@leftCatal@), "#" until the real addresses -->
+
 <section class="brands" aria-labelledby="br-h">
   <div class="wrap">
     <h2 id="br-h">Бренды в каталоге</h2>
     <ul class="brands-l">
-      <!-- PHPSHOP: плитка бренда ведёт в поиск по названию марки: в статике search.html?words=<Бренд>, на движке штатный /search/?words=<Бренд>; когда у товаров заказчика заполнена характеристика «Бренд», можно заменить на страницу фильтра по бренду -->
+      
       <li><a class="btile" href="search.html?words=Riello"><b>Riello</b><svg class="ic" aria-hidden="true" focusable="false"><use href="#i-chevron-right"/></svg></a></li>
       <li><a class="btile" href="search.html?words=ELCO"><b>ELCO</b><svg class="ic" aria-hidden="true" focusable="false"><use href="#i-chevron-right"/></svg></a></li>
       <li><a class="btile" href="search.html?words=Oilon"><b>Oilon</b><svg class="ic" aria-hidden="true" focusable="false"><use href="#i-chevron-right"/></svg></a></li>
@@ -280,14 +280,14 @@
       <li><a class="btile" href="search.html?words=ESBE"><b>ESBE</b><svg class="ic" aria-hidden="true" focusable="false"><use href="#i-chevron-right"/></svg></a></li>
       <li><a class="btile" href="search.html?words=Belimo"><b>Belimo</b><svg class="ic" aria-hidden="true" focusable="false"><use href="#i-chevron-right"/></svg></a></li>
       <li><a class="btile" href="search.html?words=DAB"><b>DAB</b><svg class="ic" aria-hidden="true" focusable="false"><use href="#i-chevron-right"/></svg></a></li>
-      <!-- all manufacturers: page brands.html (PHPShop: check in the admin how the engine lists producers) -->
+      
       <li class="btile-o"><a class="btile btile--all" href="brands.html"><b>Все бренды</b><svg class="ic" aria-hidden="true" focusable="false"><use href="#i-chevron-right"/></svg></a></li>
     </ul>
     <p class="muted brands-n">Нет вашей марки? <button type="button" class="btn-link" data-dialog="dlg-podbor" data-brand="other">Пришлите артикул или модель</button>, проверим.</p>
   </div>
 </section>
 
-<!-- BLOCK 7 delivery: pairs "condition / price" -->
+
 <section class="dlv" aria-labelledby="dl-h">
   <div class="wrap">
     <h2 id="dl-h">Доставка</h2>
@@ -301,11 +301,11 @@
   </div>
 </section>
 
-<!-- BLOCK 8 question to an engineer: Form Generator + contacts -->
+
 <section class="ask" aria-labelledby="ask-h">
   <div class="wrap">
     <div class="ask-in">
-      <form class="ask-f" action="#" method="post" data-form data-ok-title="Вопрос отправлен" data-ok-text="Ответим в рабочее время, пн&ndash;пт 10:00&ndash;18:00." data-ok-again="Задать ещё вопрос">
+      <form class="ask-f" action="#" method="post" data-form data-ok-title="Это демо: заявка не отправлена" data-ok-text="На настоящем сайте её получит инженер ВатерСити и ответит в рабочее время." data-ok-again="Задать ещё вопрос">
         <h2 id="ask-h">Задать вопрос инженеру</h2>
         <p class="lead">Опишите задачу или оборудование. Ответим в рабочее время.</p>
         <div class="field-grid">
@@ -331,7 +331,7 @@
 
 
 </main>
-<!-- PHPSHOP footer: written in BOTH main/index.tpl and main/shop.tpl. Metas: @telNum@ @telNum2@ @workingTime@ @leftMenu@ @rightMenu@ -->
+
 <footer class="foot">
   <div class="foot-pipe" aria-hidden="true"></div>
   <div class="wrap">
@@ -364,17 +364,17 @@
     <div class="foot-legal">
       <p class="foot-req">[Реквизиты: полное наименование, ИНН, ОГРН/ОГРНИП, юридический адрес: уточнить у клиента]</p>
       <p>Сайт не принимает заказы. Наличие, цену и срок мы подтверждаем в счёте.</p>
-      <p class="foot-links"><a href="privacy.html">Политика обработки персональных данных</a><a href="consent.html">Согласие на обработку персональных данных</a><a href="cookie.html">Политика cookie</a><button type="button" class="foot-btn" data-cookie-reopen>Настройки cookie</button><span>&copy; ВатерСити, 2007&ndash;2026</span><!-- 2007: домен watercity.ru по WHOIS, нижняя граница; точный год основания [уточнить у клиента], анкета 3.2. В PHPShop 2026 = @php echo date('Y'); php@ --></p>
+      <p class="foot-links"><a href="privacy.html">Политика обработки персональных данных</a><a href="consent.html">Согласие на обработку персональных данных</a><a href="cookie.html">Политика cookie</a><button type="button" class="foot-btn" data-cookie-reopen>Настройки cookie</button><span>&copy; ВатерСити, 2007&ndash;2026</span></p>
     </div>
   </div>
 </footer>
 
 </div>
-<!-- The selection form in a dialog: same form and logic as the first screen (Form Generator), opened by [data-dialog="dlg-podbor"] -->
+
 <dialog class="dlg" id="dlg-podbor" aria-label="Подбор запчасти">
   <button type="button" class="icon-btn dlg-x" data-dlg-close aria-label="Закрыть"><svg class="ic" aria-hidden="true" focusable="false"><use href="#i-x"/></svg></button>
-  <form class="plane picker" id="podbor-dlg" action="#" method="post" data-form data-ok-title="Заявка на подбор отправлена" data-ok-text="Ответим в рабочее время, пн&ndash;пт 10:00&ndash;18:00." data-ok-again="Подобрать ещё одну" aria-labelledby="podbor-dlg-h">
-      <!-- Form Generator (formgenerator_ fields): brand, model, nameplate photo (if attachments work), part, phone, email. Required: model (or the photo) and phone, as in all four selection forms; consent checked by a hook on the server -->
+  <form class="plane picker" id="podbor-dlg" action="#" method="post" data-form data-ok-title="Это демо: заявка не отправлена" data-ok-text="На настоящем сайте её получит инженер ВатерСити и ответит в рабочее время." data-ok-again="Подобрать ещё одну" aria-labelledby="podbor-dlg-h">
+      
       <h2 class="plane-h" id="podbor-dlg-h">Подбор запчасти</h2>
       <p class="plane-lead">Проверим совместимость и назовём цену и срок.</p>
       <div class="step"><p class="step-l"><i>1</i>Марка оборудования</p>
@@ -401,10 +401,9 @@
     </form>
 
 </dialog>
-<!-- Б8: the selection window is on every page; opened by [data-dialog="dlg-podbor"] -->
-<!-- Б1 PHPSHOP: the colour of the link is changed by a rule with !important in the template CSS (.page~div a{color:#93A6C7!important}), because the engine writes the block with an inline style; the text, href and title stay as they are. PHPShop licence back link (items 4.3-4.4): the engine appends this block to the end of the page itself, it is NOT carried into the template. Shown here so the static page looks as the live one will. The code, colour and visibility are not changed. -->
+
+
 <div style="text-align:center;display:block;padding:5px;color:#595959;font-size:11px"><a href="https://www.phpshop.ru/?utm_campaign=copyright" title="Платформа интернет-магазина" style="color:#595959;font-size:11px" target="_blank">Платформа интернет-магазина</a></div>
-<!-- PHPSHOP: part of main/shop.tpl and main/index.tpl (phones and tablets, shown when the request is not empty). Metas: @num@ @sum@ -->
 <div class="reqbar" id="reqbar" hidden>
   <div class="reqbar-in">
     <p class="reqbar-t"><b>В запросе: <span data-req-n>0</span></b> <span class="muted" data-req-sum></span></p>
@@ -412,7 +411,6 @@
   </div>
 </div>
 
-<!-- PHPSHOP: cookie banner in both main/index.tpl and main/shop.tpl. Own JS, the choice is kept in localStorage (wc-cookie). Nothing external is loaded in this build, so there is no counter to hold back. Вариант без Метрики — docs/legal-drafts/cookie.md / отчёт 09. -->
 <div class="cookie" id="cookie" role="region" aria-label="Cookie" hidden>
   <p>Сайт использует cookie. Необходимые нужны для работы сайта и включены всегда. Статистику Яндекс Метрики включим, только если вы нажмёте «Принять». Это ваше <a href="consent.html#s9">согласие на обработку данных о посещении</a>. <a href="cookie.html">Подробнее о cookie</a></p>
   <div class="cookie-b">
