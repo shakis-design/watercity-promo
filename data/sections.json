@@ -1,0 +1,236 @@
+[
+ {
+  "slug": "kotly",
+  "name": "Котлы",
+  "parent": null,
+  "count": 30
+ },
+ {
+  "slug": "gazovye-nastennye-kotly",
+  "name": "Газовые настенные котлы",
+  "parent": "Котлы",
+  "count": 6
+ },
+ {
+  "slug": "gazovye-napolnye-kotly",
+  "name": "Газовые напольные котлы",
+  "parent": "Котлы",
+  "count": 4
+ },
+ {
+  "slug": "tverdotoplivnye-kotly",
+  "name": "Твердотопливные котлы",
+  "parent": "Котлы",
+  "count": 4
+ },
+ {
+  "slug": "pelletnye-kotly",
+  "name": "Пеллетные котлы",
+  "parent": "Котлы",
+  "count": 4
+ },
+ {
+  "slug": "vodogreynye-kotly",
+  "name": "Водогрейные котлы",
+  "parent": "Котлы",
+  "count": 4
+ },
+ {
+  "slug": "elektricheskie-kotly",
+  "name": "Электрические котлы",
+  "parent": "Котлы",
+  "count": 4
+ },
+ {
+  "slug": "gaz-dizelnye-kotly",
+  "name": "Газ-дизельные и дизельные котлы",
+  "parent": "Котлы",
+  "count": 4
+ },
+ {
+  "slug": "gorelki",
+  "name": "Горелки",
+  "parent": null,
+  "count": 36
+ },
+ {
+  "slug": "dizelnye-gorelki",
+  "name": "Дизельные горелки",
+  "parent": "Горелки",
+  "count": 14
+ },
+ {
+  "slug": "gazovye-gorelki",
+  "name": "Газовые горелки",
+  "parent": "Горелки",
+  "count": 14
+ },
+ {
+  "slug": "pelletnye-gorelki",
+  "name": "Пеллетные горелки",
+  "parent": "Горелки",
+  "count": 8
+ },
+ {
+  "slug": "zapchasti-dlya-kotlov-i-gorelok",
+  "name": "Запчасти для котлов и горелок",
+  "parent": null,
+  "count": 72
+ },
+ {
+  "slug": "avtomaty-goreniya-siemens",
+  "name": "Автоматы горения Siemens",
+  "parent": "Запчасти для котлов и горелок",
+  "count": 14
+ },
+ {
+  "slug": "servoprivody-siemens",
+  "name": "Сервоприводы и приводы Siemens",
+  "parent": "Запчасти для котлов и горелок",
+  "count": 7
+ },
+ {
+  "slug": "forsunki",
+  "name": "Форсунки",
+  "parent": "Запчасти для котлов и горелок",
+  "count": 9
+ },
+ {
+  "slug": "zapchasti-weishaupt",
+  "name": "Запчасти Weishaupt",
+  "parent": "Запчасти для котлов и горелок",
+  "count": 12
+ },
+ {
+  "slug": "zapchasti-riello",
+  "name": "Запчасти Riello",
+  "parent": "Запчасти для котлов и горелок",
+  "count": 8
+ },
+ {
+  "slug": "zapchasti-cib-unigas",
+  "name": "Запчасти Cib Unigas",
+  "parent": "Запчасти для котлов и горелок",
+  "count": 6
+ },
+ {
+  "slug": "zapchasti-baxi",
+  "name": "Запчасти Baxi",
+  "parent": "Запчасти для котлов и горелок",
+  "count": 8
+ },
+ {
+  "slug": "zapchasti-prochie",
+  "name": "Запчасти Lamborghini, Bentone, Viessmann и других",
+  "parent": "Запчасти для котлов и горелок",
+  "count": 8
+ },
+ {
+  "slug": "avtomatika",
+  "name": "Автоматика",
+  "parent": null,
+  "count": 14
+ },
+ {
+  "slug": "privody-klapany-esbe",
+  "name": "Клапаны и приводы ESBE",
+  "parent": "Автоматика",
+  "count": 8
+ },
+ {
+  "slug": "regulyatory-avtomatika",
+  "name": "Регуляторы и автоматика",
+  "parent": "Автоматика",
+  "count": 6
+ },
+ {
+  "slug": "nasosy",
+  "name": "Насосы",
+  "parent": null,
+  "count": 12
+ },
+ {
+  "slug": "cirkulyacionnye-nasosy",
+  "name": "Циркуляционные насосы и станции",
+  "parent": "Насосы",
+  "count": 7
+ },
+ {
+  "slug": "nasosy-dlya-vody",
+  "name": "Скважинные и дренажные насосы",
+  "parent": "Насосы",
+  "count": 5
+ },
+ {
+  "slug": "toplivnoe-hozyaystvo",
+  "name": "Топливное хозяйство",
+  "parent": null,
+  "count": 12
+ },
+ {
+  "slug": "toplivnye-filtry",
+  "name": "Фильтры топлива",
+  "parent": "Топливное хозяйство",
+  "count": 6
+ },
+ {
+  "slug": "schetchiki-topliva",
+  "name": "Счётчики и насосы топлива",
+  "parent": "Топливное хозяйство",
+  "count": 6
+ },
+ {
+  "slug": "gazovoe-oborudovanie",
+  "name": "Газовое оборудование",
+  "parent": null,
+  "count": 12
+ },
+ {
+  "slug": "gazovye-klapany",
+  "name": "Газовые клапаны",
+  "parent": "Газовое оборудование",
+  "count": 6
+ },
+ {
+  "slug": "regulyatory-davleniya-gaza",
+  "name": "Регуляторы давления газа",
+  "parent": "Газовое оборудование",
+  "count": 6
+ },
+ {
+  "slug": "otoplenie",
+  "name": "Отопление",
+  "parent": null,
+  "count": 15
+ },
+ {
+  "slug": "radiatory",
+  "name": "Радиаторы",
+  "parent": "Отопление",
+  "count": 5
+ },
+ {
+  "slug": "teploakkumulyatory-boylery",
+  "name": "Теплоаккумуляторы и бойлеры",
+  "parent": "Отопление",
+  "count": 6
+ },
+ {
+  "slug": "konvektory",
+  "name": "Конвекторы",
+  "parent": "Отопление",
+  "count": 4
+ },
+ {
+  "slug": "teploventilyatory",
+  "name": "Тепловентиляторы",
+  "parent": null,
+  "count": 6
+ },
+ {
+  "slug": "promyshlennye-teploventilyatory",
+  "name": "Промышленные тепловентиляторы",
+  "parent": "Тепловентиляторы",
+  "count": 6
+ }
+]

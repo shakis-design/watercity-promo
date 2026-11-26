@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1200" preserveAspectRatio="xMidYMid slice">
+<defs>
+<linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#C5D6F0"/><stop offset=".55" stop-color="#E3EBF8"/><stop offset="1" stop-color="#D3E0F4"/></linearGradient>
+<filter id="b" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="60"/></filter>
+</defs>
+<rect width="1920" height="1200" fill="url(#g)"/>
+<g filter="url(#b)">
+<circle cx="200" cy="1020" r="470" fill="#1747A6" opacity=".62"/>
+<circle cx="1760" cy="90" r="400" fill="#0B2550" opacity=".5"/>
+<circle cx="1080" cy="560" r="360" fill="#fff" opacity=".75"/>
+<circle cx="1640" cy="980" r="300" fill="#2C63C9" opacity=".38"/>
+<circle cx="420" cy="130" r="260" fill="#fff" opacity=".6"/>
+</g>
+<g fill="none" stroke="#1747A6" stroke-width="5" stroke-opacity=".5">
+<path d="M0 310H1920"/><path d="M0 352H1920" stroke-opacity=".34"/><path d="M0 900H1920" stroke-opacity=".4"/><path d="M0 942H1920" stroke-opacity=".28"/>
+<g stroke-width="5"><rect x="180" y="298" width="24" height="24"/><rect x="560" y="340" width="24" height="24"/><rect x="940" y="298" width="24" height="24"/><rect x="1320" y="340" width="24" height="24"/><rect x="1700" y="298" width="24" height="24"/>
+<rect x="320" y="888" width="24" height="24"/><rect x="760" y="930" width="24" height="24"/><rect x="1200" y="888" width="24" height="24"/><rect x="1640" y="930" width="24" height="24"/></g>
+</g>
+</svg>

@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<!-- PHPSHOP: main/shop.tpl. Head: @pageTitl@ @pageDesc@ @pageKeyw@; styles through @pageCss@ / templates path. Static stage keeps UTF-8; the cp1251 file set is built at cut time. -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Доставка и оплата | ВатерСити</title>
+<meta name="description" content="Доставка по Санкт-Петербургу, за КАД и по России до транспортной компании. Оплата безналичным расчётом по счёту.">
+<meta name="robots" content="noindex, nofollow"><!-- test copy only: remove at launch (07) -->
+<meta name="theme-color" content="#FFFFFF">
+<link rel="canonical" href="https://watercity.ru/delivery.html"><!-- PHPShop addresses differ (SeoUrl Pro): the engine puts the real canonical into the template -->
+<meta property="og:type" content="website"><meta property="og:locale" content="ru_RU"><meta property="og:site_name" content="ВатерСити"><meta property="og:title" content="Доставка и оплата | ВатерСити"><meta property="og:description" content="Доставка по Санкт-Петербургу, за КАД и по России до транспортной компании. Оплата безналичным расчётом по счёту.">
+<meta property="og:image" content="img/g7-og.jpg"><!-- og:image needs an absolute URL on the live domain (07 sets it at launch) -->
+<link rel="icon" href="favicon.ico" sizes="32x32">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
+<link rel="preload" href="fonts/onest-var-cyr-lat.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="css/style.css?v=831e9422">
+<script src="js/products.js?v=b97e315e" defer></script>
+<script src="js/app.js?v=3829bc2a" defer></script>
+</head>
+<body class="page-doc" data-demo><div class="wc-demo-plate" role="note" style="background:#071A3A;color:#C9D5EA;font:400 14px/1.4 Onest,system-ui,sans-serif;padding:10px 16px;text-align:center;position:relative;z-index:60">Демо: вариант 1, сайт на PHPShop. Товары демонстрационные, запросы никуда не отправляются. <a href="../" style="color:#fff;font-weight:600;white-space:nowrap">Все варианты</a></div>
+<!-- data-demo: static stage only. Forms simulate a successful reply. Remove when Form Generator / handlers are connected. -->
+<div class="page"><!-- wrapper of the template: the engine appends its licence block after it, on the dark body background -->
+<a class="skip" href="#main">Перейти к содержимому</a>
+<div class="sr" id="live" role="status" aria-live="polite"></div>
+<svg class="sprite" width="0" height="0" aria-hidden="true" focusable="false"><symbol id="i-arrow-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></symbol><symbol id="i-camera" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M13.997 4a2 2 0 0 1 1.76 1.05l.486.9A2 2 0 0 0 18.003 7H20a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2h1.997a2 2 0 0 0 1.759-1.048l.489-.904A2 2 0 0 1 10.004 4z"/><circle cx="12" cy="13" r="3"/></symbol><symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path pathLength="1" d="M20 6 9 17l-5-5"/></symbol><symbol id="i-chevron-down" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></symbol><symbol id="i-chevron-left" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></symbol><symbol id="i-chevron-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></symbol><symbol id="i-circle-alert" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" x2="12" y1="8" y2="12"/><line x1="12" x2="12.01" y1="16" y2="16"/></symbol><symbol id="i-circle-help" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></symbol><symbol id="i-clipboard-list" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect width="8" height="4" x="8" y="2" rx="1" ry="1"/><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><path d="M12 11h4"/><path d="M12 16h4"/><path d="M8 11h.01"/><path d="M8 16h.01"/></symbol><symbol id="i-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></symbol><symbol id="i-copy" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect width="14" height="14" x="8" y="8" rx="2" ry="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/></symbol><symbol id="i-cpu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20v2"/><path d="M12 2v2"/><path d="M17 20v2"/><path d="M17 2v2"/><path d="M2 12h2"/><path d="M2 17h2"/><path d="M2 7h2"/><path d="M20 12h2"/><path d="M20 17h2"/><path d="M20 7h2"/><path d="M7 20v2"/><path d="M7 2v2"/><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="8" y="8" width="8" height="8" rx="1"/></symbol><symbol id="i-cylinder" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5v14a9 3 0 0 0 18 0V5"/></symbol><symbol id="i-droplet" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22a7 7 0 0 0 7-7c0-2-1-3.9-3-5.5s-3.5-4-4-6.5c-.5 2.5-2 4.9-4 6.5C6 11.1 5 13 5 15a7 7 0 0 0 7 7z"/></symbol><symbol id="i-factory" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M12 16h.01"/><path d="M16 16h.01"/><path d="M3 19a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V8.5a.5.5 0 0 0-.769-.422l-4.462 2.844A.5.5 0 0 1 15 10.5v-2a.5.5 0 0 0-.769-.422L9.77 10.922A.5.5 0 0 1 9 10.5V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2z"/><path d="M8 16h.01"/></symbol><symbol id="i-fan" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M10.827 16.379a6.082 6.082 0 0 1-8.618-7.002l5.412 1.45a6.082 6.082 0 0 1 7.002-8.618l-1.45 5.412a6.082 6.082 0 0 1 8.618 7.002l-5.412-1.45a6.082 6.082 0 0 1-7.002 8.618l1.45-5.412Z"/><path d="M12 12v.01"/></symbol><symbol id="i-faucet" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M10.083 5.428 5.57 4.083a2 2 0 10.001 3.834l4.512-1.345"/><path d="M12 8v3"/><path d="m13.917 5.428 4.511-1.345a2 2 0 110 3.834l-4.51-1.345"/><path d="M18 17v-4.006"/><path d="M22 11v8"/><path d="M22 12h-3a1 1 0 00-1 .994h-2.539a4 4 0 00-6.915-.012L7 13a5 5 0 00-5 5v1a1 1 0 001 1h2a1 1 0 001-1v-1a1 1 0 01.995-1l1.552.018a4 4 0 006.907 0L18 17a1 1 0 001 1h3"/><circle cx="12" cy="6" r="2"/></symbol><symbol id="i-flame" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3q1 4 4 6.5t3 5.5a1 1 0 0 1-14 0 5 5 0 0 1 1-3 1 1 0 0 0 5 0c0-2-1.5-3-1.5-5q0-2 2.5-4"/></symbol><symbol id="i-fuel" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M14 13h2a2 2 0 0 1 2 2v2a2 2 0 0 0 4 0v-6.998a2 2 0 0 0-.59-1.42L18 5"/><path d="M14 21V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v16"/><path d="M2 21h13"/><path d="M3 9h11"/></symbol><symbol id="i-gauge" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="m12 14 4-4"/><path d="M3.34 19a10 10 0 1 1 17.32 0"/></symbol><symbol id="i-heater" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M11 8c2-3-2-3 0-6"/><path d="M15.5 8c2-3-2-3 0-6"/><path d="M6 10h.01"/><path d="M6 14h.01"/><path d="M10 16v-4"/><path d="M14 16v-4"/><path d="M18 16v-4"/><path d="M20 6a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h3"/><path d="M5 20v2"/><path d="M19 20v2"/></symbol><symbol id="i-image-off" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><line x1="2" x2="22" y1="2" y2="22"/><path d="M10.41 10.41a2 2 0 1 1-2.83-2.83"/><line x1="13.5" x2="6" y1="13.5" y2="21"/><line x1="18" x2="21" y1="12" y2="15"/><path d="M3.59 3.59A1.99 1.99 0 0 0 3 5v14a2 2 0 0 0 2 2h14c.55 0 1.052-.22 1.41-.59"/><path d="M21 15V5a2 2 0 0 0-2-2H9"/></symbol><symbol id="i-info" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></symbol><symbol id="i-menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h16"/><path d="M4 12h16"/><path d="M4 19h16"/></symbol><symbol id="i-minus" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/></symbol><symbol id="i-plus" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M12 5v14"/></symbol><symbol id="i-ripple" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7c3 -2 6 -2 9 0s6 2 9 0"/><path d="M3 17c3 -2 6 -2 9 0s6 2 9 0"/><path d="M3 12c3 -2 6 -2 9 0s6 2 9 0"/></symbol><symbol id="i-search" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="m21 21-4.34-4.34"/><circle cx="11" cy="11" r="8"/></symbol><symbol id="i-search-x" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="m13.5 8.5-5 5"/><path d="m8.5 8.5 5 5"/><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></symbol><symbol id="i-thermometer" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M14 4v10.54a4 4 0 1 1-4 0V4a2 2 0 0 1 4 0Z"/></symbol><symbol id="i-trash-2" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M10 11v6"/><path d="M14 11v6"/><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6"/><path d="M3 6h18"/><path d="M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></symbol><symbol id="i-vk" viewBox="0 0 24 24"><path fill="currentColor" stroke="none" d="m9.489.004.729-.003h3.564l.73.003.914.01.433.007.418.011.403.014.388.016.374.021.36.025.345.03.333.033c1.74.196 2.933.616 3.833 1.516.9.9 1.32 2.092 1.516 3.833l.034.333.029.346.025.36.02.373.025.588.012.41.013.644.009.915.004.98-.001 3.313-.003.73-.01.914-.007.433-.011.418-.014.403-.016.388-.021.374-.025.36-.03.345-.033.333c-.196 1.74-.616 2.933-1.516 3.833-.9.9-2.092 1.32-3.833 1.516l-.333.034-.346.029-.36.025-.373.02-.588.025-.41.012-.644.013-.915.009-.98.004-3.313-.001-.73-.003-.914-.01-.433-.007-.418-.011-.403-.014-.388-.016-.374-.021-.36-.025-.345-.03-.333-.033c-1.74-.196-2.933-.616-3.833-1.516-.9-.9-1.32-2.092-1.516-3.833l-.034-.333-.029-.346-.025-.36-.02-.373-.025-.588-.012-.41-.013-.644-.009-.915-.004-.98.001-3.313.003-.73.01-.914.007-.433.011-.418.014-.403.016-.388.021-.374.025-.36.03-.345.033-.333c.196-1.74.616-2.933 1.516-3.833.9-.9 2.092-1.32 3.833-1.516l.333-.034.346-.029.36-.025.373-.02.588-.025.41-.012.644-.013.915-.009ZM6.79 7.3H4.05c.13 6.24 3.25 9.99 8.72 9.99h.31v-3.57c2.01.2 3.53 1.67 4.14 3.57h2.84c-.78-2.84-2.83-4.41-4.11-5.01 1.28-.74 3.08-2.54 3.51-4.98h-2.58c-.56 1.98-2.22 3.78-3.8 3.95V7.3H10.5v6.92c-1.6-.4-3.62-2.34-3.71-6.92Z"/></symbol><symbol id="i-wind" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M12.8 19.6A2 2 0 1 0 14 16H2"/><path d="M17.5 8a2.5 2.5 0 1 1 2 4H2"/><path d="M9.8 4.4A2 2 0 1 1 11 8H2"/></symbol><symbol id="i-wrench" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.106-3.105c.32-.322.863-.22.983.218a6 6 0 0 1-8.259 7.057l-7.91 7.91a1 1 0 0 1-2.999-3l7.91-7.91a6 6 0 0 1 7.057-8.259c.438.12.54.662.219.984z"/></symbol><symbol id="i-x" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></symbol></svg>
+<!-- PHPSHOP header: written in BOTH main/index.tpl and main/shop.tpl (no separate header.tpl in the engine). Metas: @logo@ @telNum@ @telNum2@ @workingTime@ @num@ (request counter) @leftCatal@ (catalog tree) @topMenu@ -->
+<header class="hdr" id="hdr">
+  <div class="top">
+    <div class="wrap top-in">
+      <a class="logo" href="index.html" aria-label="ВатерСити, на главную"><svg class="mark" viewBox="0 0 34 34" aria-hidden="true" focusable="false"><g transform="scale(.71)"><rect class="win" x="21.25" y="18.5" width="5.5" height="6.5" rx="1"/><path class="house" d="M3 33V24L10 16 17 24V18L24 8 31 18V26L38 19 45 26V33M17 24V33M31 26V33"/><path class="wave" d="M3 41q5.25-4 10.5 0t10.5 0 10.5 0 10.5 0"/></g></svg><picture><source media="(max-width:767px)" srcset="img/logo-name-s.svg"><img class="logo-name" src="img/logo-name.svg" alt="" width="142" height="34"></picture></a>
+      <nav class="nav" aria-label="Главное меню">
+        <button type="button" class="nav-b" data-mega aria-expanded="false" aria-controls="mega">Каталог<svg class="ic" aria-hidden="true" focusable="false"><use href="#i-chevron-down"/></svg></button>
+        <a href="catalog.html">Запчасти</a>
+        <div class="nav-dd">
+          <button type="button" class="nav-b" data-dd aria-expanded="false" aria-controls="dd-svc">Услуги<svg class="ic" aria-hidden="true" focusable="false"><use href="#i-chevron-down"/></svg></button>
+          <div class="dd dd--svc" id="dd-svc" hidden>
+            <a href="service-montazh.html"><b>Монтаж котельных</b><span>Газ, дизель, пеллеты, щепа, отработанное масло</span></a>
+            <a href="service-servis.html"><b>Сервис и ремонт</b><span>Ремонт котлов и горелок, пусконаладка</span></a>
+            <a href="service-proektirovanie.html"><b>Проектирование и подбор</b><span>Отопление и вентиляция для домов и производств</span></a>
+            <a href="service-otoplenie-doma.html"><b>Отопление загородного дома</b><span>Радиаторы, тёплые полы, тепловые насосы</span></a>
+          </div>
+        </div>
+        <a href="delivery.html">Доставка и оплата</a>
+        <a href="about.html">О компании</a>
+        <a href="contacts.html">Контакты</a>
+      </nav>
+      <div class="top-right">
+        <div class="nav-dd tel-d">
+          <button type="button" class="tel" data-dd aria-expanded="false" aria-controls="dd-tel"><span class="nowrap">8 800 250-93-29</span><small>Пн&ndash;Пт 10:00&ndash;18:00</small></button>
+          <div class="dd dd--tel" id="dd-tel" hidden>
+            <a href="tel:88002509329"><b><span class="nowrap">8 800 250-93-29</span></b><span>Звонок по России</span></a>
+            <a href="tel:+78129297929"><b><span class="nowrap">(812) 929-79-29</span></b><span><span class="nowrap">Санкт-Петербург</span></span></a>
+            <a href="mailto:info@watercity.ru"><b>info@watercity.ru</b><span>Почта</span></a>
+          </div>
+        </div>
+        <a class="tel-n" href="tel:88002509329" aria-label="Позвонить 8 800 250-93-29, пн–пт 10:00–18:00"><span class="nowrap">8 800 250-93-29</span></a>
+        <a class="btn btn-line btn-sm req" href="request.html" title="Список позиций для счёта" data-req-link><svg class="ic" aria-hidden="true" focusable="false"><use href="#i-clipboard-list"/></svg><span class="req-t">Запрос<span class="req-x"> на счёт</span></span><b class="req-n" data-req-n hidden>0</b><span class="sr" data-req-sr></span></a>
+        <button type="button" class="burger" aria-label="Меню" aria-expanded="false" aria-controls="drawer"><svg class="ic" aria-hidden="true" focusable="false"><use href="#i-menu"/></svg></button>
+      </div>
+    </div>
+  </div>
+  <div class="strip" id="strip">
+    <div class="wrap strip-in">
+      <button type="button" class="btn btn-blue strip-cat" data-mega aria-expanded="false" aria-controls="mega"><svg class="ic" aria-hidden="true" focusable="false"><use href="#i-menu"/></svg>Каталог</button>
+      <form class="search search--md" role="search" action="search.html" method="get" data-live><div class="search-box"><label class="search-in" for="q-1"><svg class="ic" aria-hidden="true" focusable="false"><use href="#i-search"/></svg><span class="sr">Поиск по каталогу</span><input id="q-1" name="words" type="search" autocomplete="off" enterkeyhint="search" placeholder="Название, артикул или модель" data-ph-s="Артикул или модель" role="combobox" aria-expanded="false" aria-controls="q-1-l" aria-autocomplete="list"><button type="button" class="search-x" aria-label="Очистить поиск" hidden><svg class="ic" aria-hidden="true" focusable="false"><use href="#i-x"/></svg></button></label><button class="btn btn-blue" type="submit"><span>Найти</span><svg class="ic btn-ic" aria-hidden="true" focusable="false"><use href="#i-search"/></svg></button><span class="wave" aria-hidden="true"><i></i></span></div><div class="drop" id="q-1-d" hidden><div class="drop-l" id="q-1-l" role="listbox" aria-label="Результаты поиска"></div><div class="drop-x"></div></div></form>
+      <!-- Б2: the request button of the strip, shown when row 1 has gone (CSS .top-off) -->
+      <a class="btn btn-line btn-sm req req--strip" href="request.html" title="Список позиций для счёта"><span class="req-t">Запрос</span><b class="req-n" data-req-n hidden>0</b></a>
+    </div>
+  </div>
+  <div class="mega" id="mega" hidden>
+    <div class="mega-in">
+      <nav class="mega-nav" aria-label="Разделы каталога"><ul class="ct"><li class="ct-hot"><a href="catalog.html"><span class="si is-plain"><svg class="ic ic-22" aria-hidden="true" focusable="false"><use href="#i-wrench"/></svg></span><span>Запчасти для котлов и горелок</span></a><ul><li><a href="catalog.html">Автоматы горения Siemens</a></li><li><a href="catalog.html">Датчики Baxi</a></li><li><a href="catalog.html">Датчики протока Baxi</a></li><li><a href="catalog.html">Запчасти Baltur</a></li><li><a href="catalog.html">Запчасти BAXI</a></li><li><a href="catalog.html">Запчасти Bederus</a></li><li><a href="catalog.html">Запчасти Bentone</a></li><li><a href="catalog.html">Запчасти Cib Unigas</a></li><li><a href="catalog.html">Запчасти Giersch</a></li><li><a href="catalog.html">Запчасти Therminator</a></li><li><a href="catalog.html">Запчасти Viessmann</a></li><li><a href="catalog.html">Запчасти Weishaupt</a></li><li><a href="catalog.html">Запчасти ZOTA</a></li><li><a href="catalog.html">Запчасти для Riello</a></li><li><a href="catalog.html">Мультиблоки</a></li><li><a href="catalog.html">Сервоприводы Siemens</a></li><li><a href="catalog.html">Теплообменники</a></li><li><a href="catalog.html">Теплообменники Baxi</a></li><li><a href="catalog.html">Форсунки</a></li><li><a href="catalog.html">Электродвигатели ELCO</a></li><li><a href="catalog.html">Электронные платы Baxi</a></li><li><a href="catalog.html">Газовые клапана</a></li><li><a href="catalog.html">Дизельные шланги</a></li><li><a href="catalog.html">Датчики</a></li><li><a href="catalog.html">Перевод на сжиженный газ</a></li><li><a href="catalog.html">Запчасти Lamborghini</a></li></ul></li><li><a href="catalog.html"><span class="si is-plain"><svg class="ic ic-22" aria-hidden="true" focusable="false"><use href="#i-heater"/></svg></span><span>Котлы</span></a><ul><li><a href="catalog.html">Газовые настенные котлы</a></li><li><a href="catalog.html">Котлы Italtherm</a></li><li><a href="catalog.html">Котлы Kotitonttu</a></li><li><a href="catalog.html">Котлы Vaillant</a></li><li><a href="catalog.html">Котлы Wolf</a></li><li><a href="catalog.html">Котлы ZOTA</a></li><li><a href="catalog.html">Газовые напольные котлы</a></li><li><a href="catalog.html">Дизельные котлы</a></li><li><a href="catalog.html">Пеллетные котлы</a></li><li><a href="catalog.html">Газ-дизель</a></li><li><a href="catalog.html">Электрические котлы</a></li><li><a href="catalog.html">Котлы на опилках и щепе</a></li><li><a href="catalog.html">Твердотопливные котлы</a></li><li><a href="catalog.html">Водогрейные котлы</a></li><li><a href="catalog.html">Коаксиальные дымоходы</a></li><li><a href="catalog.html">Пеллетные камины</a></li><li><a href="catalog.html">Котлы Baxi</a></li><li><a href="catalog.html">Котлы Lamborghini</a></li><li><a href="catalog.html">Пакетные предложения</a></li><li><a href="catalog.html">Котлы Viessmann</a></li><li><a href="catalog.html">Котлы Faci</a></li><li><a href="catalog.html">Котлы Kentatsu</a></li><li><a href="catalog.html">Ferroli</a></li></ul></li><li><a href="catalog.html"><span class="si is-fire"><svg class="ic ic-22" aria-hidden="true" focusable="false"><use href="#i-flame"/></svg></span><span>Горелки</span></a><ul><li><a href="catalog.html">Газовые горелки</a></li><li><a href="catalog.html">Дизельные горелки</a></li><li><a href="catalog.html">Пеллетные горелки</a></li><li><a href="catalog.html">Пеллетные горелки Aviterm</a></li><li><a href="catalog.html">Пеллетные горелки Pelltech</a></li><li><a href="catalog.html">Oilon</a></li><li><a href="catalog.html">FBR</a></li><li><a href="catalog.html">Lamborghini</a></li></ul></li><li><a href="catalog.html"><span class="si is-plain"><svg class="ic ic-22" aria-hidden="true" focusable="false"><use href="#i-cpu"/></svg></span><span>Автоматика</span></a><ul><li><a href="catalog.html">Siemens</a></li><li><a href="catalog.html">Клапаны Esbe</a></li><li><a href="catalog.html">Приводы Belimo</a></li><li><a href="catalog.html">Приводы ESBE</a></li><li><a href="catalog.html">Регуляторы тяги</a></li><li><a href="catalog.html">Тепловые регуляторы</a></li><li><a href="catalog.html">Смесительный клапаны</a></li><li><a href="catalog.html">Приводы</a></li><li><a href="catalog.html">GSM управление</a></li><li><a href="catalog.html">Автоматика IFM</a></li><li><a href="catalog.html">Автоматика Lamtec</a></li></ul></li><li><a href="catalog.html"><span class="si is-water"><svg class="ic ic-22" aria-hidden="true" focusable="false"><use href="#i-droplet"/></svg></span><span>Насосы</span></a><ul><li><a href="catalog.html">Насосы DAB</a></li><li><a href="catalog.html">Циркуляционные насосы</a></li><li><a href="catalog.html">Насосные станции</a></li><li><a href="catalog.html">Скважинные насосы</a></li><li><a href="catalog.html">Дренажные насосы</a></li><li><a href="catalog.html">Канализационные установки</a></li><li><a href="catalog.html">Насосы для ГВС</a></li><li><a href="catalog.html">Колодезные насосы</a></li></ul></li><li><a href="catalog.html"><span class="si is-plain"><svg class="ic ic-22" aria-hidden="true" focusable="false"><use href="#i-fuel"/></svg></span><span>Топливное хозяйство</span></a><ul><li><a href="catalog.html">Счетчики топлива</a></li><li><a href="catalog.html">Топливозаборники</a></li><li><a href="catalog.html">Фильтры для дизельных горелок</a></li><li><a href="catalog.html">Принадлежности для фильтров</a></li><li><a href="catalog.html">Топливные насосы</a></li></ul></li><li><a href="catalog.html"><span class="si is-plain"><svg class="ic ic-22" aria-hidden="true" focusable="false"><use href="#i-gauge"/></svg></span><span>Газовое оборудование</span></a><ul><li><a href="catalog.html">Газовые фильтры</a></li><li><a href="catalog.html">Регуляторы давления газа</a></li><li><a href="catalog.html">Газовые клапаны</a></li></ul></li><li><a href="catalog.html"><span class="si is-plain"><svg class="ic ic-22" aria-hidden="true" focusable="false"><use href="#i-factory"/></svg></span><span>Котельные</span></a><ul><li><a href="catalog.html">Дизельные котельные</a></li><li><a href="catalog.html">Пеллетные котельные</a></li></ul></li><li><a href="catalog.html"><span class="si is-plain"><svg class="ic ic-22" aria-hidden="true" focusable="false"><use href="#i-thermometer"/></svg></span><span>Отопление</span></a><ul><li><a href="catalog.html">Радиаторы</a></li><li><a href="catalog.html">Конвекторы</a></li><li><a href="catalog.html">Теплогенераторы</a></li><li><a href="catalog.html">Котельное оборудование</a></li><li><a href="catalog.html">Теплый пол</a></li><li><a href="catalog.html">Бойлеры косвенного нагрева</a></li><li><a href="catalog.html">Теплоаккумуляторы</a></li><li><a href="catalog.html">Тепловые насосы</a></li></ul></li><li><a href="catalog.html"><span class="si is-plain"><svg class="ic ic-22" aria-hidden="true" focusable="false"><use href="#i-fan"/></svg></span><span>Тепловентиляторы</span></a><ul><li><a href="catalog.html">Sonniger</a></li><li><a href="catalog.html">ГРЕЕРС</a></li><li><a href="catalog.html">Тепломаш</a></li><li><a href="catalog.html">Wolf</a></li><li><a href="catalog.html">Rosenberg</a></li><li><a href="catalog.html">Euroheat Volcano</a></li></ul></li><li><a href="catalog.html"><span class="si is-plain"><svg class="ic ic-22" aria-hidden="true" focusable="false"><use href="#i-wind"/></svg></span><span>Вентиляция</span></a><ul><li><a href="catalog.html">Приточно-вытяжные установки</a></li><li><a href="catalog.html">Фанкойлы</a></li></ul></li><li><a href="catalog.html"><span class="si is-plain"><svg class="ic ic-22" aria-hidden="true" focusable="false"><use href="#i-faucet"/></svg></span><span>Трубопроводная арматура</span></a><ul><li><a href="catalog.html">Регуляторы перепада давления</a></li></ul></li><li><a href="catalog.html"><span class="si is-plain"><svg class="ic ic-22" aria-hidden="true" focusable="false"><use href="#i-ripple"/></svg></span><span>Наружные сети</span></a></li><li><a href="catalog.html"><span class="si is-plain"><svg class="ic ic-22" aria-hidden="true" focusable="false"><use href="#i-cylinder"/></svg></span><span>Пневмоцилиндры</span></a><ul><li><a href="catalog.html">Пневмоцилиндры NORGREN</a></li></ul></li></ul></nav>
+      <a class="btn-link mega-all" href="catalog.html">Все разделы каталога<svg class="ic" aria-hidden="true" focusable="false"><use href="#i-arrow-right"/></svg></a>
+    </div>
+  </div>
+</header>
+<div class="scrim" id="scrim" hidden></div>
+<aside class="drawer" id="drawer" aria-label="Меню" tabindex="-1" inert>
+  <div class="drawer-top"><form class="search search--md" role="search" action="search.html" method="get" data-live><div class="search-box"><label class="search-in" for="q-2"><svg class="ic" aria-hidden="true" focusable="false"><use href="#i-search"/></svg><span class="sr">Поиск по каталогу</span><input id="q-2" name="words" type="search" autocomplete="off" enterkeyhint="search" placeholder="Название, артикул или модель" data-ph-s="Артикул или модель" role="combobox" aria-expanded="false" aria-controls="q-2-l" aria-autocomplete="list"><button type="button" class="search-x" aria-label="Очистить поиск" hidden><svg class="ic" aria-hidden="true" focusable="false"><use href="#i-x"/></svg></button></label><button class="btn btn-blue" type="submit"><span>Найти</span><svg class="ic btn-ic" aria-hidden="true" focusable="false"><use href="#i-search"/></svg></button><span class="wave" aria-hidden="true"><i></i></span></div><div class="drop" id="q-2-d" hidden><div class="drop-l" id="q-2-l" role="listbox" aria-label="Результаты поиска"></div><div class="drop-x"></div></div></form><button type="button" class="icon-btn" data-drawer-close aria-label="Закрыть меню"><svg class="ic" aria-hidden="true" focusable="false"><use href="#i-x"/></svg></button></div>
+  <div class="drawer-body">
+    <nav class="dnav" aria-label="Меню сайта">
+      <details class="dnav-d"><summary>Каталог<svg class="ic" aria-hidden="true" focusable="false"><use href="#i-chevron-down"/></svg></summary><div class="drawer-cat" data-tree-clone></div></details>
+      <a href="catalog.html">Запчасти</a>
+      <details class="dnav-d"><summary>Услуги<svg class="ic" aria-hidden="true" focusable="false"><use href="#i-chevron-down"/></svg></summary>
+        <div class="dnav-sub"><a href="service-montazh.html">Монтаж котельных</a><a href="service-servis.html">Сервис и ремонт</a><a href="service-proektirovanie.html">Проектирование и подбор</a><a href="service-otoplenie-doma.html">Отопление загородного дома</a></div>
+      </details>
+      <a href="delivery.html">Доставка и оплата</a>
+      <a href="about.html">О компании</a>
+      <a href="contacts.html">Контакты</a>
+    </nav>
+  </div>
+  <div class="drawer-foot">
+    <a class="drawer-tel" href="tel:88002509329"><span class="nowrap">8 800 250-93-29</span></a>
+    <a class="drawer-tel" href="tel:+78129297929"><span class="nowrap">(812) 929-79-29</span></a>
+    <p><a href="mailto:info@watercity.ru">info@watercity.ru</a><br>Пн&ndash;Пт 10:00&ndash;18:00</p>
+    <a class="btn btn-accent btn-block" href="request.html"><svg class="ic" aria-hidden="true" focusable="false"><use href="#i-clipboard-list"/></svg>Открыть запрос<span class="dn" data-drawer-n hidden></span></a>
+  </div>
+</aside>
+
+<main id="main" tabindex="-1">
+<!-- PHPSHOP main/shop.tpl -> @DispShop@ -> page/page_page_list.tpl (@pageTitle@ @pageContent@). Text from the admin page "Доставка и оплата". The Q&A moved here from the home page; only answers confirmed by the client are shown. -->
+<nav class="crumbs" aria-label="Навигационная цепочка"><div class="wrap"><ol><li><a href="index.html">Главная</a></li><li><span aria-current="page">Доставка и оплата</span></li></ol><a class="crumbs-up" href="index.html"><svg class="ic" aria-hidden="true" focusable="false"><use href="#i-chevron-left"/></svg>Главная</a></div></nav>
+<div class="wrap doc">
+  <nav class="toc" data-toc aria-label="Содержание страницы"><a href="#dostavka">Доставка</a><a href="#sroki">Сроки</a><a href="#oplata">Оплата</a><!-- Возврат и обмен: ждёт текст юриста клиента --><a href="#voprosy">Вопросы и ответы</a></nav>
+  <div class="doc-b read">
+    <h1>Доставка и оплата</h1>
+    <p class="info"><svg class="ic" aria-hidden="true" focusable="false"><use href="#i-info"/></svg><span>Сайт не принимает заказы. Наличие, цену и срок мы подтверждаем в счёте.</span></p>
+
+    <section id="dostavka" aria-labelledby="h-d">
+      <h2 id="h-d">Доставка</h2>
+      <dl class="tbl">
+        <div><dt>По <span class="nowrap">Санкт-Петербургу</span> в пределах КАД</dt><dd>500 &#8381;, при сумме счёта от 50 000 &#8381; бесплатно.</dd></div>
+        <div><dt>За КАД</dt><dd>Считаем отдельно, учитываем расстояние и габариты.</dd></div>
+        <div><dt>По России</dt><dd>Везём до транспортной компании Деловые линии или СДЭК бесплатно. Укажите город и транспортную компанию в запросе. В регионы отправляем после поступления оплаты на расчётный счёт.</dd></div>
+      </dl>
+    </section>
+    <section id="sroki" aria-labelledby="h-s">
+      <h2 id="h-s">Сроки</h2>
+      <p>При наличии на складе 1&ndash;2 рабочих дня с момента предоплаты. Под заказ от 2 до 6 недель. Точный срок назовём в счёте.</p>
+    </section>
+    <!-- "Самовывоз": only with the client's answer (docs/01 7.8) -->
+    <section id="oplata" aria-labelledby="h-o">
+      <h2 id="h-o">Оплата</h2>
+      <!-- НДС: вопрос 14a в docs/client-questions-open.md. До ответа клиента без «с НДС» (юрист 09, P1-1 пакета Б); если платит НДС и цены с НДС, вернуть «с НДС» здесь и подписать цену -->
+      <p>Безналичный расчёт по счёту.</p>
+    </section>
+    <!-- [текст юриста клиента]: раздел "Возврат и обмен" (id vozvrat) вернуть, когда будет текст, и ссылку в оглавлении (docs/client-data-todo.md) -->
+    <section id="voprosy" aria-labelledby="h-q">
+      <h2 id="h-q">Вопросы и ответы</h2>
+      <div class="faq">
+        <details><summary>Можно ли получить счёт на организацию?<svg class="ic" aria-hidden="true" focusable="false"><use href="#i-chevron-down"/></svg></summary><p>Да, оставьте запрос с ИНН. Оплата по безналичному расчёту.</p></details>
+        <details><summary>Как быстро отгрузите?<svg class="ic" aria-hidden="true" focusable="false"><use href="#i-chevron-down"/></svg></summary><p>При наличии на складе 1&ndash;2 рабочих дня после предоплаты. Под заказ 2&ndash;6 недель.</p></details>
+        <details><summary>Привозите по России?<svg class="ic" aria-hidden="true" focusable="false"><use href="#i-chevron-down"/></svg></summary><p>Да, до транспортной компании Деловые линии или СДЭК бесплатно. Дальше по тарифу ТК.</p></details>
+      </div>
+    </section>
+    <p class="doc-cta"><a class="btn btn-accent btn-lg" href="request.html"><svg class="ic" aria-hidden="true" focusable="false"><use href="#i-clipboard-list"/></svg>Открыть запрос</a></p>
+  </div>
+</div>
+
+</main>
+<!-- PHPSHOP footer: written in BOTH main/index.tpl and main/shop.tpl. Metas: @telNum@ @telNum2@ @workingTime@ @leftMenu@ @rightMenu@ -->
+<footer class="foot">
+  <div class="foot-pipe" aria-hidden="true"></div>
+  <div class="wrap">
+    <div class="foot-in">
+      <div class="foot-a">
+        <a class="logo logo--dark" href="index.html" aria-label="ВатерСити, на главную"><img src="img/logo-white.svg" alt="" width="187" height="34"></a>
+        <p class="foot-lead">Котлы, горелки и запчасти с ценами. Монтаж и сервис котельных.</p>
+        <address>196158, <span class="nowrap">Санкт-Петербург</span>, Московское шоссе, д. 23, к. 2<br>въезд через КПП с Дизельного проезда</address>
+      </div>
+      <div class="foot-b">
+        <a href="tel:88002509329"><span class="nowrap">8 800 250-93-29</span></a>
+        <a href="tel:+78129297929"><span class="nowrap">(812) 929-79-29</span></a>
+        <a href="mailto:info@watercity.ru">info@watercity.ru</a>
+        <p>Пн&ndash;Пт 10:00&ndash;18:00</p>
+        <a class="foot-vk" href="https://vk.com/watercity" target="_blank" rel="noopener"><svg class="ic ic-20" aria-hidden="true" focusable="false"><use href="#i-vk"/></svg>ВКонтакте<span class="sr"> (откроется в новой вкладке)</span></a>
+      </div>
+      <nav class="foot-c" aria-label="Разделы">
+        <a href="catalog.html">Каталог</a>
+        <a href="catalog.html">Запчасти</a>
+        <a href="service-montazh.html">Услуги</a>
+        <a href="delivery.html">Доставка и оплата</a>
+      </nav>
+      <nav class="foot-d" aria-label="Компания">
+        <a href="about.html">О компании</a>
+        <a href="contacts.html">Контакты</a>
+        <a href="brands.html">Бренды в каталоге</a>
+        <a href="index.html#podbor" data-dialog="dlg-podbor">Подбор запчасти</a>
+      </nav>
+    </div>
+    <div class="foot-legal">
+      <p class="foot-req">[Реквизиты: полное наименование, ИНН, ОГРН/ОГРНИП, юридический адрес: уточнить у клиента]</p>
+      <p>Сайт не принимает заказы. Наличие, цену и срок мы подтверждаем в счёте.</p>
+      <p class="foot-links"><a href="privacy.html">Политика обработки персональных данных</a><a href="consent.html">Согласие на обработку персональных данных</a><a href="cookie.html">Политика cookie</a><button type="button" class="foot-btn" data-cookie-reopen>Настройки cookie</button><span>&copy; ВатерСити, 2007&ndash;2026</span><!-- 2007: домен watercity.ru по WHOIS, нижняя граница; точный год основания [уточнить у клиента], анкета 3.2. В PHPShop 2026 = @php echo date('Y'); php@ --></p>
+    </div>
+  </div>
+</footer>
+
+</div>
+<!-- The selection form in a dialog: same form and logic as the first screen (Form Generator), opened by [data-dialog="dlg-podbor"] -->
+<dialog class="dlg" id="dlg-podbor" aria-label="Подбор запчасти">
+  <button type="button" class="icon-btn dlg-x" data-dlg-close aria-label="Закрыть"><svg class="ic" aria-hidden="true" focusable="false"><use href="#i-x"/></svg></button>
+  <form class="plane picker" id="podbor-dlg" action="#" method="post" data-form data-ok-title="Заявка на подбор отправлена" data-ok-text="Ответим в рабочее время, пн&ndash;пт 10:00&ndash;18:00." data-ok-again="Подобрать ещё одну" aria-labelledby="podbor-dlg-h">
+      <!-- Form Generator (formgenerator_ fields): brand, model, nameplate photo (if attachments work), part, phone, email. Required: model (or the photo) and phone, as in all four selection forms; consent checked by a hook on the server -->
+      <h2 class="plane-h" id="podbor-dlg-h">Подбор запчасти</h2>
+      <p class="plane-lead">Проверим совместимость и назовём цену и срок.</p>
+      <div class="step"><p class="step-l"><i>1</i>Марка оборудования</p>
+        <div class="opts" role="radiogroup" aria-label="Марка оборудования" data-opts="brand"><input type="hidden" name="brand" value=""><button type="button" role="radio" aria-checked="false">Riello</button><button type="button" role="radio" aria-checked="false">Baxi</button><button type="button" role="radio" aria-checked="false">ELCO</button><button type="button" role="radio" aria-checked="false">Weishaupt</button><button type="button" role="radio" aria-checked="false">Viessmann</button><button type="button" role="radio" aria-checked="false" data-reveal>Другая</button></div><div class="fld opts-other" hidden><label for="opt-3-o" class="sr">Марка оборудования: уточните</label><input class="input" id="opt-3-o" name="brand_other" placeholder="Марка котла или горелки"></div></div>
+      <div class="step"><p class="step-l"><i>2</i>Модель или серийный номер</p>
+        <div class="field-row">
+          <div class="fld sr-label"><label for="model-4">Модель или серийный номер</label><input class="input" id="model-4" name="model" type="text" placeholder="Например, RS 34/M MZ" required data-v="model" aria-describedby="model-4-e"><p class="err" id="model-4-e" hidden><svg class="ic" aria-hidden="true" focusable="false"><use href="#i-circle-alert"/></svg><span>Укажите модель или приложите фото шильдика</span></p></div>
+          <label class="photo"><svg class="ic" aria-hidden="true" focusable="false"><use href="#i-camera"/></svg><span data-file-t>Фото шильдика</span><input type="file" name="plate" accept="image/jpeg,image/png" data-file><button type="button" class="photo-x" data-file-x aria-label="Убрать файл" hidden><svg class="ic" aria-hidden="true" focusable="false"><use href="#i-x"/></svg></button></label>
+        </div>
+        <p class="hint">Снимите только табличку. JPG или PNG до 10 МБ</p>
+        <p class="err" data-file-err hidden><svg class="ic" aria-hidden="true" focusable="false"><use href="#i-circle-alert"/></svg><span>Файл не подошёл. Выберите другой или отправьте заявку без фото</span></p>
+      </div>
+      <div class="step"><p class="step-l"><i>3</i>Что нужно заменить, если знаете</p>
+        <div class="opts" role="radiogroup" aria-label="Что нужно заменить, если знаете" data-opts="part"><input type="hidden" name="part" value=""><button type="button" role="radio" aria-checked="false">Форсунка</button><button type="button" role="radio" aria-checked="false">Электрод розжига</button><button type="button" role="radio" aria-checked="false">Датчик пламени</button><button type="button" role="radio" aria-checked="false">Автомат горения</button><button type="button" role="radio" aria-checked="false" data-reveal>Не знаю</button></div><div class="fld opts-other" hidden><label for="opt-5-o" class="sr">Что нужно заменить, если знаете: уточните</label><input class="input" id="opt-5-o" name="part_other" placeholder="Неисправность или нужная деталь"></div></div>
+      <div class="step"><p class="step-l"><i>4</i>Куда ответить</p>
+        <div class="field-row field-row--2">
+          <div class="fld"><label for="phone-6">Телефон</label><input class="input" id="phone-6" name="phone" type="tel" placeholder="+7 (___) ___-__-__" autocomplete="tel" inputmode="tel" required data-v="tel" aria-describedby="phone-6-e"><p class="err" id="phone-6-e" hidden><svg class="ic" aria-hidden="true" focusable="false"><use href="#i-circle-alert"/></svg><span>Введите номер телефона с кодом города</span></p></div>
+          <div class="fld"><label for="email-7">Email, если удобнее</label><input class="input" id="email-7" name="email" type="email" placeholder="name@domain.ru" autocomplete="email" data-v="email" aria-describedby="email-7-e"><p class="err" id="email-7-e" hidden><svg class="ic" aria-hidden="true" focusable="false"><use href="#i-circle-alert"/></svg><span>Введите email в виде name@domain.ru</span></p></div>
+        </div>
+      </div>
+      <div class="fld fld-chk"><label class="chk"><input type="checkbox" id="consent-8" name="consent" value="1" required data-v="consent" aria-describedby="consent-8-e"><span>Согласен на <a href="consent.html" target="_blank" rel="noopener">обработку персональных данных<span class="sr"> (откроется в новой вкладке)</span></a></span></label><p class="err" id="consent-8-e" hidden><svg class="ic" aria-hidden="true" focusable="false"><use href="#i-circle-alert"/></svg><span>Отметьте согласие, чтобы отправить</span></p></div>
+      <button class="btn btn-accent btn-lg btn-block" type="submit">Отправить на подбор</button>
+      <p class="plane-note">Ответим в рабочее время, пн&ndash;пт 10:00&ndash;18:00.</p>
+    </form>
+
+</dialog>
+<!-- Б8: the selection window is on every page; opened by [data-dialog="dlg-podbor"] -->
+<!-- Б1 PHPSHOP: the colour of the link is changed by a rule with !important in the template CSS (.page~div a{color:#93A6C7!important}), because the engine writes the block with an inline style; the text, href and title stay as they are. PHPShop licence back link (items 4.3-4.4): the engine appends this block to the end of the page itself, it is NOT carried into the template. Shown here so the static page looks as the live one will. The code, colour and visibility are not changed. -->
+<div style="text-align:center;display:block;padding:5px;color:#595959;font-size:11px"><a href="https://www.phpshop.ru/?utm_campaign=copyright" title="Платформа интернет-магазина" style="color:#595959;font-size:11px" target="_blank">Платформа интернет-магазина</a></div>
+<!-- PHPSHOP: part of main/shop.tpl and main/index.tpl (phones and tablets, shown when the request is not empty). Metas: @num@ @sum@ -->
+<div class="reqbar" id="reqbar" hidden>
+  <div class="reqbar-in">
+    <p class="reqbar-t"><b>В запросе: <span data-req-n>0</span></b> <span class="muted" data-req-sum></span></p>
+    <a class="btn btn-accent btn-sm" href="request.html">Открыть запрос</a>
+  </div>
+</div>
+
+<!-- PHPSHOP: cookie banner in both main/index.tpl and main/shop.tpl. Own JS, the choice is kept in localStorage (wc-cookie). Nothing external is loaded in this build, so there is no counter to hold back. Вариант без Метрики — docs/legal-drafts/cookie.md / отчёт 09. -->
+<div class="cookie" id="cookie" role="region" aria-label="Cookie" hidden>
+  <p>Сайт использует cookie. Необходимые нужны для работы сайта и включены всегда. Статистику Яндекс Метрики включим, только если вы нажмёте «Принять». Это ваше <a href="consent.html#s9">согласие на обработку данных о посещении</a>. <a href="cookie.html">Подробнее о cookie</a></p>
+  <div class="cookie-b">
+    <button type="button" class="btn btn-blue btn-sm" data-cookie="all">Принять</button>
+    <button type="button" class="btn btn-line btn-sm" data-cookie="min">Только необходимые</button>
+  </div>
+</div>
+
+</body>
+</html>

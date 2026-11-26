@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /search.html
+Disallow: /request.html
+Disallow: /account.html
+Clean-param: sort /
+
+Sitemap: https://www.watercity.ru/sitemap.xml

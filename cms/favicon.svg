@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <style>.b{fill:#071A3A}.k{fill:#1747A6}@media (prefers-color-scheme:dark){.b{fill:#E9EFF9}.k{fill:#7FA6F0}}</style>
+  <path class="b" d="M22 40A18 18 0 0 1 22 4L36 4L36 12L22 12A6 6 0 0 0 22 24L42 24A18 18 0 0 1 42 60L28 60L28 52L42 52A6 6 0 0 0 42 40L22 40Z"/>
+  <circle class="k" cx="52" cy="12" r="8"/>
+  <circle class="k" cx="12" cy="52" r="8"/>
+</svg>
